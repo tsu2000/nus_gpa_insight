@@ -282,7 +282,7 @@ def calc(current_year, current_mth_day):
             val = to_excel(df)
             b64 = base64.b64encode(val)
 
-            return f'<a href="data:application/octet-stream;base64,{b64.decode()}" download="mod_gpa_details.xlsx">:inbox_tray: Download (.xlsx)</a>' 
+            return f'<a href="data:application/octet-stream;base64,{b64.decode()}" download="course_details.xlsx">:inbox_tray: Download (.xlsx)</a>' 
 
         if st.session_state["all_course_data"] != []:
             st.markdown(get_table_download_link(df), unsafe_allow_html = True)
