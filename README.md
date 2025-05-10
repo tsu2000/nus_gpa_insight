@@ -1,17 +1,12 @@
-# nus_cap_calculator
+# 🧐 NUS GPA Insight
 
-![image](https://github.com/tsu2000/nus_cap_calculator/assets/106811131/c0c07152-7bcd-41f0-8438-f6df2f7995e0)
+**Link to Web App 👉**: [HERE](<https://nusgpa.streamlit.app>)
 
-A simple web application that is geared toward students of NUS (National University of Singapore) that allows users to:
-- Select NUS modules, view their current CAP and other details relating to selected modules, plus export the selected data to an Excel (.xlsx) file and allows module data to similarly be imported in the same format as the Excel file.
-- Input data to predict their future CAP. (Now with interactive data editor!)
-- View the sensitivity (to changes in CAP) of their current CAP as a heatmap.
-- View a detailed explanation of how CAP at NUS is calculated.
+<img width="932" alt="image" src="https://github.com/user-attachments/assets/074dcc91-9a67-42bc-a739-2761ff636f3f"/>
 
-For non-NUS students, view the web app [**here**](<https://gpa-calc.streamlit.app>).
+<br>**NUS GPA Insight** is a simple CRUD app built using Streamlit which helps NUS students track their courses and their GPA using the official NUSMods API. It shows a clean summary of completed courses, as well as the GPA and honours degree classification. The Course Tracker and GPA Summary can be downloaded for record-keeping.
 
-**Link to Web App**:
-
-[<img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg">](<https://nus-cap.streamlit.app>)
-
-
+### Why use it?
+- Effortlessly track your courses
+- Plan smarter with GPA projections
+- Stay updated with clear progress overviews
